@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 import { pacifico, roboto100, roboto300 } from "@/style/fonts";
 import Image from "next/image";
 

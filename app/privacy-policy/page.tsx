@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { roboto300 } from "@/style/fonts";
 
 export const metadata: Metadata = {
 	title: "Drulab.net",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
 	return (
-		<div className="druuu-1 druuu-main">
+		<div className={`${roboto300.className} druuu-1 druuu-main`}>
 			<h1 className="privacy-policy-h1">
 				Privacy Policy <br />
 				<span>Last Updated On 24-Nov-2023</span> <br />
