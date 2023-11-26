@@ -1,5 +1,10 @@
 import Image from "next/image";
 
+export const metadata: Metadata = {
+	title: "Drulab.net",
+	description: "Privacy Policy",
+};
+
 export default function PrivacyPolicy() {
 	return (
 		<div className="druuu-1 druuu-main">
