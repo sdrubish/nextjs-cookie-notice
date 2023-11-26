@@ -1,4 +1,5 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { roboto300 } from "@/style/fonts";
 
 export const metadata: Metadata = {
