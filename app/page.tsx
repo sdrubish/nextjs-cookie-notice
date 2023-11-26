@@ -8,7 +8,7 @@ export default function Home() {
 			<div>
 				<h1 className="logo">Drulab</h1>
 				<h2 className="sublogo">Tailored coding + Blockchain + AI + Web + Business Automation</h2>
-				<h3 className="main-text">Home to everything that's food for the mind in the tech space.</h3>
+				<h3 className="main-text">Home to everything that&apos;s food for the mind in the tech space.</h3>
 			</div>
 		</main>
 	);
